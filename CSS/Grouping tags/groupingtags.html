@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: black;
+            color: rgb(255, 0, 0);
+        }
+        nav{ 
+            background-color: darkred;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.733)
+        }
+        nav > a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 70px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        header{
+            border-radius: 10px;
+            background-color: red;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            border-radius: 10px;
+            background-color: red;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diabolical BABY</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Live</a>
+            <a href="#">History</a>
+            <a href="#">Shop</a>
+            <a href="#">Community</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Criação da banda</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat doloribus repudiandae recusandae ducimus ut consequatur sapiente praesentium libero soluta illo vitae architecto dolore commodi perspiciatis eligendi, animi porro voluptatum ipsa.</p>
+                <aside>
+                    <p>Artigo de Gabriel Medeiros</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Gabriel Medeiros
+    </footer>
+    
+</body>
+</html>
